@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 0;
     background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 .header{
@@ -22,6 +24,24 @@ body{
     font-style: italic;
     padding-top: 10px;
 }
+.hero{
+    color: white;
+    display: flex;
+    width: auto;
+    height: auto;
+    align-self: center;
+    border: 2px solid gray;
+    gap: 20px;
+
+    
+}
+.odin-logo{
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+    
+}
+
 
 a{
     text-decoration: none;
@@ -30,15 +50,33 @@ a{
 .recipe-selection{
     background-color: salmon;
     display: flex;
-    margin: 20px;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
 }
 .recipe{
-    width: 300px;
-    height: 200px;
+    width: auto;
+    height: auto;
     border: 2px solid gray;
-    border-radius: 10px;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+.recipe-btn{
+    height: 30px;
+}
+.left{
+    border: 2px solid red;
+    position: relative;
+    width: 300px;
+}
+.right{
+    border: 2px solid red;
+    
+}
+.left img{
+    display: block;
+    max-inline-size: 100%;
+ 
 }
