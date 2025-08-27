@@ -8,7 +8,7 @@ body{
 
 .header{
     display: flex;
-    background-color: #020403;
+    background-color: #0C0908;
     color: white;
     margin: 0;
     padding: 0;
@@ -35,6 +35,7 @@ body{
     justify-content: center;
 }
 .hero-block{
+    width: 1000px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -74,7 +75,7 @@ a:hover{
     flex-direction: column;
     gap: 10px;
 }
-.recipe{
+.recipe, .recipe-even{
     width: auto;
     height: auto;
     /* border: 2px solid gray; */
@@ -87,7 +88,10 @@ a:hover{
     margin: 0;
     padding: 0;
 }
+.recipe-even{
+    background-color: #FFF8DC;
 
+}
 
 .left{
     min-width: 300px;
@@ -96,9 +100,6 @@ a:hover{
     box-sizing: border-box;
     flex: 1;
     padding: 20px 20px 10px;
-
-   
- 
 }
 .right{
     /* border: 2px solid red; */
